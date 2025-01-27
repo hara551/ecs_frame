@@ -1,0 +1,52 @@
+[
+    {
+        "EntityName": {
+            "name": "SkyDome_space"
+        },
+        "ModelHandle": {
+            "modelName": "Univers.fbx"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                100.0,
+                100.0,
+                100.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "feeld"
+        },
+        "ModelHandle": {
+            "modelName": "Stage.fbx"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                0.10000000149011612,
+                1.0
+            ]
+        }
+    }
+]

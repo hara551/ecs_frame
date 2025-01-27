@@ -1,0 +1,40 @@
+[
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                3.0999999046325684,
+                0.0
+            ],
+            "size": [
+                1.2999999523162842,
+                6.199999809265137,
+                1.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "tree_01"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Props/Tree_1.fbx"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "EntityName": {
+            "name": "TestDayoten"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "TestDayo1Entity"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    }
+]

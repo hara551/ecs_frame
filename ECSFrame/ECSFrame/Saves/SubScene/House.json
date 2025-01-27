@@ -1,0 +1,75 @@
+[
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                6.599999904632568,
+                0.0
+            ],
+            "size": [
+                20.0,
+                13.0,
+                20.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "House"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Buildings/Building_1.fbx"
+        },
+        "Transform": {
+            "position": [
+                -210.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -90.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "size": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "Empty4"
+        },
+        "Transform": {
+            "position": [
+                -195.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+]

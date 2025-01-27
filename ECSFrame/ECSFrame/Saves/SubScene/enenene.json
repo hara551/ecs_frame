@@ -1,0 +1,156 @@
+[
+    {
+        "EntityName": {
+            "name": "Empty0"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty1"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty2"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty3"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty4"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty5"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty6"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    }
+]

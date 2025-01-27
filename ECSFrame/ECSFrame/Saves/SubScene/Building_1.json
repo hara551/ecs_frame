@@ -1,0 +1,132 @@
+[
+    {
+        "EntityName": {
+            "name": "Building_1"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Buildings/Building_1.fbx"
+        },
+        "Transform": {
+            "position": [
+                -103.20000457763672,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                -89.99993133544922,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "size": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "coll_03"
+        },
+        "Transform": {
+            "position": [
+                -99.4000015258789,
+                2.5999999046325684,
+                -7.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                11.600000381469727,
+                5.099999904632568,
+                4.699999809265137
+            ]
+        }
+    },
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "size": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "coll_02"
+        },
+        "Transform": {
+            "position": [
+                -109.0999984741211,
+                6.5,
+                1.2999999523162842
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                7.199999809265137,
+                13.100000381469727,
+                14.699999809265137
+            ]
+        }
+    },
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "size": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "coll_01"
+        },
+        "Transform": {
+            "position": [
+                -99.50000762939453,
+                6.5,
+                2.0999999046325684
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                11.600000381469727,
+                13.100000381469727,
+                12.800000190734863
+            ]
+        }
+    }
+]

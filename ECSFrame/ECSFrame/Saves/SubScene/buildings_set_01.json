@@ -1,0 +1,116 @@
+[
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                12.0,
+                0.0
+            ],
+            "size": [
+                12.0,
+                23.600000381469727,
+                16.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "building_gray"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Buildings/Building_2.fbx"
+        },
+        "Transform": {
+            "position": [
+                -24.299999237060547,
+                0.0,
+                26.100000381469727
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "CollisionBox": {
+            "center": [
+                -1.600000023841858,
+                11.899999618530273,
+                0.0
+            ],
+            "size": [
+                -15.899999618530273,
+                26.299999237060547,
+                11.699999809265137
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "building_cyan"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Buildings/Building_3.fbx"
+        },
+        "Transform": {
+            "position": [
+                -22.600000381469727,
+                0.0,
+                8.199999809265137
+            ],
+            "rotation": [
+                0.0,
+                90.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                8.600000381469727,
+                0.5
+            ],
+            "size": [
+                -12.600000381469727,
+                16.600000381469727,
+                18.5
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "building_red"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Buildings/Building_9.fbx"
+        },
+        "Transform": {
+            "position": [
+                -23.600000381469727,
+                0.0,
+                42.20000076293945
+            ],
+            "rotation": [
+                0.0,
+                180.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.800000011920929
+            ]
+        }
+    }
+]

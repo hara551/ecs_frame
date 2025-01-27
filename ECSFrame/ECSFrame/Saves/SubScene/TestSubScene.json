@@ -1,0 +1,68 @@
+[
+    {
+        "EntityName": {
+            "name": "ttt"
+        },
+        "Transform": {
+            "position": [
+                100.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "aaa"
+        },
+        "Transform": {
+            "position": [
+                -100.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "sprite01"
+        },
+        "Transform": {
+            "position": [
+                600.0,
+                300.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+]

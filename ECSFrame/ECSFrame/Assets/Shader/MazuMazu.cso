@@ -1,0 +1,68 @@
+[
+    {
+        "EntityName": {
+            "name": "Empty3"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty4"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty8"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    }
+]

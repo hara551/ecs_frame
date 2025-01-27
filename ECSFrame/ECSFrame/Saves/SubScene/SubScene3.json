@@ -1,0 +1,90 @@
+[
+    {
+        "EntityName": {
+            "name": "eee"
+        },
+        "Transform": {
+            "position": [
+                8.0,
+                50.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "rrr"
+        },
+        "Transform": {
+            "position": [
+                9.0,
+                100.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "vvv"
+        },
+        "Transform": {
+            "position": [
+                10.0,
+                150.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "xxx"
+        },
+        "Transform": {
+            "position": [
+                11.0,
+                200.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+]

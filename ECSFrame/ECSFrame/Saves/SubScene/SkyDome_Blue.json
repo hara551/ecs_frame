@@ -1,0 +1,52 @@
+[
+    {
+        "EntityName": {
+            "name": "Sky_Up"
+        },
+        "ModelHandle": {
+            "modelName": "Sky.fbx"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Sky_down"
+        },
+        "ModelHandle": {
+            "modelName": "Sky.fbx"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                180.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+]

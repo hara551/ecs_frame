@@ -1,0 +1,110 @@
+[
+    {
+        "EntityName": {
+            "name": "iine"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "TitleBack.png",
+            "textureSize": [
+                1280.0,
+                720.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                680.0,
+                300.0,
+                3.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": ".png",
+            "textureSize": [
+                1280.0,
+                720.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                10.0,
+                10.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                300.0,
+                300.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "EntityName": {
+            "name": "Empty2"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                0.0,
+                0.0,
+                0.0
+            ]
+        }
+    }
+]

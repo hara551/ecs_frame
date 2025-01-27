@@ -1,0 +1,560 @@
+[
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "G_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "G_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                313.5,
+                300.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                -0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                -300.0,
+                -600.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "A_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "A_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                449.70001220703125,
+                299.3999938964844,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                400.0,
+                550.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "M_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "M_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                594.7000122070313,
+                298.6000061035156,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                100.0,
+                300.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "E_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "E_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                741.4000244140625,
+                298.3999938964844,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                20.0,
+                900.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "T_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "T_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                521.2000122070313,
+                419.3999938964844,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                700.0,
+                -900.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "I_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "I_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                669.5999755859375,
+                420.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                20.0,
+                -300.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 50.0
+        },
+        "EntityName": {
+            "name": "T_2"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "T_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                827.7999877929688,
+                417.8999938964844,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                -900.0,
+                1000.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 0.0
+        },
+        "EntityName": {
+            "name": "L_1"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "L_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                980.5,
+                416.70001220703125,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                0.800000011920929,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                350.0,
+                -800.0,
+                0.0
+            ]
+        }
+    },
+    {
+        "CollisionCircle2D": {
+            "center": [
+                0.0,
+                0.0
+            ],
+            "radius": 0.0
+        },
+        "EntityName": {
+            "name": "E_2"
+        },
+        "Sprite": {
+            "textureColor": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "textureName": "E_phont.png",
+            "textureSize": [
+                100.0,
+                100.0
+            ],
+            "uvPosition": [
+                0.0,
+                0.0
+            ],
+            "uvScale": [
+                1.0,
+                1.0
+            ]
+        },
+        "Transform": {
+            "position": [
+                1126.0,
+                418.1000061035156,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        },
+        "Velocity": {
+            "angularVelocity": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "linearVelocity": [
+                900.0,
+                900.0,
+                0.0
+            ]
+        }
+    }
+]

@@ -1,0 +1,40 @@
+[
+    {
+        "CollisionBox": {
+            "center": [
+                0.0,
+                12.0,
+                0.0
+            ],
+            "size": [
+                12.0,
+                23.600000381469727,
+                16.0
+            ]
+        },
+        "CollisionResult": "no save",
+        "EntityName": {
+            "name": "building_gray"
+        },
+        "ModelHandle": {
+            "modelName": "LowPoly/Buildings/Building_2.fbx"
+        },
+        "Transform": {
+            "position": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "rotation": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                1.0
+            ]
+        }
+    }
+]

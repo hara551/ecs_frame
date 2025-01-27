@@ -1,0 +1,590 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="コード">
+      <UniqueIdentifier>{fd5e79c4-6da4-4e58-95d8-958ae7227c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\core">
+      <UniqueIdentifier>{af874a0a-2b88-4062-98cb-79e182f0f1d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\DirectX">
+      <UniqueIdentifier>{7ed58bd2-46ba-46fb-8fb2-0cbc93a3ec73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Editor">
+      <UniqueIdentifier>{bdf09929-0031-440c-b85f-b594e41d88b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Editor\ImGui">
+      <UniqueIdentifier>{2e133ad7-cb50-4897-b415-37deac7ad0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Shader">
+      <UniqueIdentifier>{4d805d68-95b9-4feb-9ff0-e5e870d7d7ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Shader\VertexShader">
+      <UniqueIdentifier>{d6b7c5b7-258f-4735-b671-6b34025ee418}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Shader\PixelShader">
+      <UniqueIdentifier>{1ef2fabd-b0d8-4033-b9ed-14bf09f0628f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Gui">
+      <UniqueIdentifier>{c32157ab-2a09-486d-b1b9-52d9eaa16fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\Gui\Item">
+      <UniqueIdentifier>{29dc7ebb-c3a8-48c0-92e8-d1e75f6eed0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS">
+      <UniqueIdentifier>{39b8f9c4-e1cd-40d6-8850-c16a76f09784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\ComponentData">
+      <UniqueIdentifier>{4f2fefc3-ec42-4812-b35a-cf576ca65871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\ComponentData\Data">
+      <UniqueIdentifier>{6883269b-7d2c-4c0f-ae45-30f60bcc1b0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\CoreSystem">
+      <UniqueIdentifier>{f25727d2-1d60-4d61-a6b6-bf29def230f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\ResourceManager">
+      <UniqueIdentifier>{75bba7b0-597a-4f43-844e-b4fb1e2f2fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\CoreSystem\Entity">
+      <UniqueIdentifier>{29c3ff57-702d-4b83-adc8-6d525ae594a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\CoreSystem\Component">
+      <UniqueIdentifier>{25e983e5-09ba-4b84-83bb-b2a709f5b3c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\CoreSystem\General">
+      <UniqueIdentifier>{c4aa4307-1e00-4949-8c36-6e8474d8f422}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\CoreSystem\System">
+      <UniqueIdentifier>{e683a587-6d0c-481f-9648-a60b2ccc4bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\CoreSystem\System\SystemData">
+      <UniqueIdentifier>{ff476d2a-73c2-45e9-8a59-b3b44a37a982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\コンポーネント追加時">
+      <UniqueIdentifier>{f992e438-9210-434f-bf83-843e2321ed77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="コード\ECS\ComponentData\Data\Collision">
+      <UniqueIdentifier>{368bc586-8c51-4856-96e3-886d85c24974}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>コード\core</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowStartup.cpp">
+      <Filter>コード\core</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="MeshBuffer.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui.cpp">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx11.cpp">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_tables.cpp">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorManager.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDataUtil.cpp">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelManager.cpp">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextureManager.cpp">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityIdAllocater.cpp">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityLocator.cpp">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataChunk.cpp">
+      <Filter>コード\ECS\CoreSystem\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataManager.cpp">
+      <Filter>コード\ECS\CoreSystem\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldBase.cpp">
+      <Filter>コード\ECS\CoreSystem\General</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldManager.cpp">
+      <Filter>コード\ECS\CoreSystem\General</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemRegistry.cpp">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraSystemBase.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManagerSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="DetailsWindow.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldWindow.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="TextInputDialog.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowBase.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadPoolManager.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentRegistry.cpp">
+      <Filter>コード\ECS\コンポーネント追加時</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentDataUtil.cpp">
+      <Filter>コード\ECS\ComponentData</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRendererSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="EasingUtil.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenFade.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraDccSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelRendererSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="BoxCollisionSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="EditDataManager.cpp">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SubsceneManager.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="Geometory.cpp">
+      <Filter>コード\DirectX</Filter>
+    </ClCompile>
+    <ClCompile Include="GridRendererSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugSystemOptionWindow.cpp">
+      <Filter>コード\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionRendererSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="Velocity.cpp">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="MovementSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryRendererSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioClip.cpp">
+      <Filter>コード</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometrySolid.cpp">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle2DCollisionSystem.cpp">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldActivateHandle.cpp">
+      <Filter>コード\ECS\CoreSystem\General</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Defines.h">
+      <Filter>コード\core</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>コード\core</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="MeshBuffer.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="imconfig.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx11.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>コード\Editor\ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiCheckBox.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputBase.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputFloat.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputFloat3.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputInt.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputText.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiItemBase.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiPopup.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSelectable.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiTreeNode.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiWindow.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiText.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputColor.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiButton.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorManager.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataBase.h">
+      <Filter>コード\ECS\ComponentData</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityName.h">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentRegistry.h">
+      <Filter>コード\ECS\ComponentData</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDataUtil.h">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelManager.h">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextureManager.h">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityIdAllocater.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityLocator.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityOperator.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityVersionChecker.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataChunk.h">
+      <Filter>コード\ECS\CoreSystem\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataManager.h">
+      <Filter>コード\ECS\CoreSystem\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponentDataManager.h">
+      <Filter>コード\ECS\CoreSystem\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldBase.h">
+      <Filter>コード\ECS\CoreSystem\General</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldManager.h">
+      <Filter>コード\ECS\CoreSystem\General</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemBase.h">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemMask.h">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemRegistry.h">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemDifinitions.h">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="ISystemDistributor.h">
+      <Filter>コード\ECS\CoreSystem\System</Filter>
+    </ClInclude>
+    <ClInclude Include="IChunkProvider.h">
+      <Filter>コード\ECS\CoreSystem\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityValueHandler.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraSystemBase.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManagerSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="DetailsWindow.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldWindow.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowBase.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="TextInputDialog.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadPoolManager.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentMask.h">
+      <Filter>コード\ECS\コンポーネント追加時</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputFloat2.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentDataUtil.h">
+      <Filter>コード\ECS\ComponentData</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRendererSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="EasingUtil.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenFade.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraDccSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelHandle.h">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelRendererSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxCollisionSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBox.h">
+      <Filter>コード\ECS\ComponentData\Data\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionBase.h">
+      <Filter>コード\ECS\ComponentData\Data\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorStateHolder.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="ClipboardHolder.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="SubsceneManager.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="EditDataManager.h">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="IEditDataLoader.h">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityTypes.h">
+      <Filter>コード\ECS\CoreSystem\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="Geometory.h">
+      <Filter>コード\DirectX</Filter>
+    </ClInclude>
+    <ClInclude Include="GridRendererSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugSystemOptionWindow.h">
+      <Filter>コード\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionRendererSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="Velocity.h">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionResult.h">
+      <Filter>コード\ECS\ComponentData\Data\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>コード\ECS\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioClip.h">
+      <Filter>コード</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryRendererSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometrySolid.h">
+      <Filter>コード\ECS\ComponentData\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputDragFloat.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiInputDragFloat3.h">
+      <Filter>コード\Gui\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionCircle2D.h">
+      <Filter>コード\ECS\ComponentData\Data\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle2DCollisionSystem.h">
+      <Filter>コード\ECS\CoreSystem\System\SystemData</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldActivateHandle.h">
+      <Filter>コード\ECS\CoreSystem\General</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imgui.ini">
+      <Filter>コード\Editor\ImGui</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="VS_Model.hlsl">
+      <Filter>コード\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_TexColor.hlsl">
+      <Filter>コード\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_AlphaFade.hlsl">
+      <Filter>コード\Shader\PixelShader</Filter>
+    </FxCompile>
+    <FxCompile Include="VS_Sprite.hlsl">
+      <Filter>コード\Shader\VertexShader</Filter>
+    </FxCompile>
+    <FxCompile Include="PS_Sprite.hlsl">
+      <Filter>コード\Shader\PixelShader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
